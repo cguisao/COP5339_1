@@ -1,0 +1,3 @@
+Max Number: 6
+Min Number: 2
+Ave Number: 4
