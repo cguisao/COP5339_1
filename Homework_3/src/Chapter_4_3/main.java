@@ -1,9 +1,3 @@
-package Chapter_4_3;
-
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -18,6 +12,12 @@ import javax.swing.*;
 06:    This program implements an animation that moves
 07:    a car shape.
 08: */
+
+package Chapter_4_3;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
 public class main
  {
     public static void main(String[] args)
