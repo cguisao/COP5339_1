@@ -5,7 +5,7 @@
  */
 package Lambda_1_b;
 
-import Lambda.Functor2;
+import Lambda_1_c.Functor2;
 import Lambda_1_a.Functor;
 import java.util.LinkedList;
 
