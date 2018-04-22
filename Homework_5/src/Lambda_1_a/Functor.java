@@ -7,7 +7,7 @@ package Lambda_1_a;
 
 /**
  *
- * @author carlo
+ * @author Carlos Guisao
  * @param <R>
  * @param <T>
  */

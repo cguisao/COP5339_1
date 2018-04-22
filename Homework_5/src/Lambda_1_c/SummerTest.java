@@ -15,6 +15,9 @@ import java.util.LinkedList;
 public class SummerTest {
     public static void main(String[] args) {
         
+        System.out.println("Summer function 5 + 6: ");
+        Summer ref = new Summer();
+        System.out.println(ref.apply(5, 6));
         
         LinkedList<Integer> myInts = new LinkedList<>();
         
@@ -29,9 +32,14 @@ public class SummerTest {
         
         Functor2<Integer, Integer, Integer> variable = (x, y) -> x + y; 
         
+        System.out.println("Functor lambda expression example");
+        
         System.out.println(variable.apply(5, 6));
         
-        System.out.println(list.reduce(variable, 3, myInts));
+        System.out.println("Functor lambda expression example adding "
+                + "the variables in the list result");
+ 
+        System.out.println(list.reduce(variable, 0, myInts));
         
     }
 }

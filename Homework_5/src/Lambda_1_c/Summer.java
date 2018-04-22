@@ -15,5 +15,4 @@ public class Summer implements Functor2{
     public Object apply(Object param1, Object param2) {
         return (int)param1 + (int)param2;
     }
-    
 }
